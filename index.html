@@ -51,7 +51,7 @@
 
       /* ── Navigation ── */
       .nav-bar {
-        position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+        position: fixed; top: 42px; left: 0; right: 0; z-index: 100;
         background: rgba(10, 26, 47, 0.85);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
@@ -233,6 +233,11 @@
 <body data-id="0" class="bg-white">
     <app-icon data-id="1" hidden data-icon="globe" data-palette="Blue"></app-icon>
 
+    <!-- Construction Banner -->
+    <div style="position:fixed; top:0; left:0; right:0; z-index:200; background:#fff; text-align:center; padding:10px 0; border-bottom:2px solid #cc0000;">
+      🚧 <strong style="color:#cc0000; font-size:14px; font-weight:700; margin-left:4px;">This site is under Construction!</strong> 🚧
+    </div>
+
     <!-- ═══════════════════════════════════════════════════════════ -->
     <!-- NAVIGATION -->
     <!-- ═══════════════════════════════════════════════════════════ -->
@@ -272,15 +277,6 @@
     </div>
 
     <main data-id="26">
-      <!-- ═══════════════════════════════════════════════════════════ -->
-      <!-- HERO SECTION -->
-      <!-- ═══════════════════════════════════════════════════════════ -->
-      <!-- Construction Banner -->
-      <div style="background:#fff; text-align:center; padding:10px 0; border-bottom:2px solid #cc0000;">
-        <i data-lucide="hard-hat" style="color:#cc0000; width:18px; height:18px; vertical-align:middle; display:inline-block;"></i>
-        <strong style="color:#cc0000; font-size:14px; font-weight:700; margin-left:8px;">This site is under Construction!</strong>
-        <i data-lucide="hard-hat" style="color:#cc0000; width:18px; height:18px; vertical-align:middle; display:inline-block; margin-left:8px;"></i>
-      </div>
 
       <section data-id="27" id="hero" class="relative min-h-screen flex items-center overflow-hidden" style="background: linear-gradient(160deg, #0A1A2F 0%, #0D2340 100%);">
         <div data-id="28" class="max-w-7xl mx-auto px-5 md:px-8 w-full py-28 md:py-0">
